@@ -1,0 +1,54 @@
+.bg-light{
+    background-color: rgb(0, 255, 255);
+}
+.container-cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.container-jump{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* tablet */
+@media (min-width:991px) and (max-width:1324){
+    .container-cards{
+        background: yellow;
+    }
+}
+.container-catalogo{
+    display: flex;
+    justify-content: right;
+    padding: 40px;
+}
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.container-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body{
+    background-image: url(imgen/order-food-table-empty-background.jpg);
+    background-size: 100%;
+}
+
+.card1{
+    background-color: rgba(116, 62, 38, 0.623);
+}
+.card2{
+    background-color: rgba(116, 62, 38, 0.623);
+}
+.card3{
+    background-color: rgba(116, 62, 38, 0.623);
+}
+.card4{
+    background-color: rgba(116, 62, 38, 0.623);
+}
+
+
