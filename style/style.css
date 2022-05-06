@@ -23,6 +23,15 @@
         display: flex;
         justify-content: center;
     }
+    
+
+}
+.img-fluid{
+    width: 600px; height: 300px;
+    padding: 15px;
+}
+.containe-imagen1{
+    max-width: 600px;
 }
 .container-catalogo{
     display: flex;
@@ -110,3 +119,4 @@ p {
     transform-origin: 0 0;
     transition: opacity .1s ease-in-out,transform .1s ease-in-out;
 }
+
