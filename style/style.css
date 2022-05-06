@@ -100,3 +100,13 @@ p {
     font-size: calc(1.325rem + .9vw);
     padding: 15px;
 }
+.floatingTextarea {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
