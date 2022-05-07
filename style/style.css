@@ -4,7 +4,7 @@ body{
     background-size: 100%;
 }
 .img-fluid {
-    max-width: 100%;
+    width: 400px;
     height: auto;
     padding:15px;
 }
@@ -57,4 +57,13 @@ padding: 15px;
 }
 .card4{
     background: #682e139d;
+}
+@media screen and (max-width:400px) {
+    .img-fluid {
+        width: 200px;
+    } 
+    .mb-3 {
+        margin-bottom: 1rem!important;
+        width: 200px;
+    }
 }
