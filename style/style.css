@@ -6,7 +6,7 @@ body{
 .img-fluid {
     max-width: 100%;
     height: auto;
-    padding: ;
+    padding:15px;
 }
 .Título{
     padding:15 ;
@@ -45,4 +45,16 @@ padding: 15px;
 }
 .container-catalogo{
     padding: 15px;
+}
+.card1 {
+    background: #682e139d;
+}
+.card2{
+    background: #682e139d;
+}
+.card3{
+    background: #682e139d;
+}
+.card4{
+    background: #682e139d;
 }
